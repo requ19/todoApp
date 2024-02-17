@@ -17,6 +17,7 @@ body {
     align-items: center;
     margin-top: 100px;
     position: relative;
+    height: 800px;
 }
 
 .App {
@@ -116,4 +117,46 @@ body {
   
 }
 
+@media (max-width: 1400px) {
+    .App {
+        width: 450px;
+    }
+    .moon {
+        width: 150px;
+        height: 150px;
+    }
+  }
 
+  @media (max-width: 1200px) {
+    .App {
+        width: 400px;
+    }
+    .moon {
+        width: 120px;
+        height: 120px;
+    }
+  }
+
+  @media (max-width: 870px) {
+    .App {
+        width: 330px;
+    }
+    .moon {
+        display: none;
+    }
+  }
+
+
+  /* .App {
+    background: rgba(22, 21, 21, 0.2);
+    box-shadow: 0px 0px 10px 3px rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.8);;
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+} */
