@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+font-family: "IBM Plex Mono", monospace;
+}
+
+body {
+    background: url('https://wallpapers.com/images/hd/new-york-night-digital-art-ksf51v8bdfado0m8.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.App {
+    background: rgba(22, 21, 21, 0.2);
+    box-shadow: 0px 0px 10px 3px rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.8);;
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.moon {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    animation: moon 3s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes moon {
+    0% {
+        box-shadow: 0px 0px 8px 8px rgba(225, 225, 225, 0.8);
+    }
+    5% {
+        box-shadow: 1px 1px 10px 10px rgba(225, 225, 225, 0.8);
+    }
+    10% {
+        box-shadow: 0px 0px 15px 15px rgba(225, 225, 225, 0.8);
+    }
+    15% {
+        box-shadow: 0px 0px 20px 20px rgba(225, 225, 225, 0.8);
+    }
+    20% {
+        box-shadow: 0px 0px 25px 25px rgba(225, 225, 225, 0.8);
+    }
+    25% {
+        box-shadow: 0px 0px 30px 30px rgba(225, 225, 225, 0.8);
+    }
+    30% {
+        box-shadow: 0px 0px 35px 35px rgba(225, 225, 225, 0.8);
+    }
+    35% {
+        box-shadow: 0px 0px 40px 40px rgba(225, 225, 225, 0.8);
+    }
+    40% {
+        box-shadow: 0px 0px 45px 45px rgba(225, 225, 225, 0.8);
+    }
+    45% {
+        box-shadow: 0px 0px 50px 50px rgba(225, 225, 225, 0.8);
+    }
+    50% {
+        box-shadow: 0px 0px 55px 55px rgba(225, 225, 225, 0.8);
+    }
+    55% {
+        box-shadow: 0px 0px 60px 60px rgba(225, 225, 225, 0.8);
+    }
+    60% {
+        box-shadow: 0px 0px 65px 65px rgba(225, 225, 225, 0.8);
+    }
+    65% {
+        box-shadow: 0px 0px 70px 70px rgba(225, 225, 225, 0.8);
+    }
+    70% {
+        box-shadow: 0px 0px 75px 75px rgba(225, 225, 225, 0.8);
+    }
+    75% {
+        box-shadow: 0px 0px 80px 80px rgba(225, 225, 225, 0.8);
+    }
+    80% {
+        box-shadow: 0px 0px 85px 85px rgba(225, 225, 225, 0.8);
+    }
+    85% {
+        box-shadow: 0px 0px 90px 90px rgba(225, 225, 225, 0.8);
+    }
+    90% {
+        box-shadow: 0px 0px 95px 95px rgba(225, 225, 225, 0.8);
+    }
+    95% {
+        box-shadow: 0px 0px 100px 100px rgba(225, 225, 225, 0.8);
+    }
+    100% {
+        box-shadow: 0px 0px 105px 105px rgba(225, 225, 225, 0.8);
+    }
+  
+}
+
+

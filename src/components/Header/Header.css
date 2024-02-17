@@ -1,0 +1,14 @@
+.header {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+.title {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.counter span{
+    color: #fff;
+    font-size: 1rem;
+}
